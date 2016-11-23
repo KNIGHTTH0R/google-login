@@ -1,0 +1,12 @@
+{
+    "name": "trinal/login",
+    "authors": [
+        {
+            "name": "tri613",
+            "email": "tri613@gmail.com"
+        }
+    ],
+    "require": {
+		"google/apiclient": "^2.0"
+    }
+}
