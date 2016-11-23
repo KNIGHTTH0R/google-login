@@ -1,3 +1,6 @@
+<?php
+	require_once __DIR__.'/../config.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +27,7 @@
 	function init() {
 		gapi.load('auth2', function() {
         	auth2 = gapi.auth2.init({
-				client_id: '480920481214-aoprctlkjadqrfrnl8iuhdohqgq8udnd.apps.googleusercontent.com',
+				client_id: "<?php echo getenv('CLIENT_ID');?>",
 				fetch_basic_profile: true
 			});
 	        auth2.attachClickHandler('google-login-btn', {}, onSuccess, onFailure);
