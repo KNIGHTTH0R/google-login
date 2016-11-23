@@ -1,6 +1,6 @@
 只是想要實作看看Google login，所以按鈕並沒有符合Google規範哈哈。
 
-用了兩種方式接，一種是用js(+php)，一種是純後端(PHP)，
+用了兩種方式接，一種是用js(+php)，一種是純後端(php)，
 程式碼分別在 `with-js` 和 `with-server`下面。
 
 :warning:
